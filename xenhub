@@ -1,8 +1,3 @@
---[[
-  XenScripts · packed
-  runtime decode + load
-]]
-
 local _b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 local function _d(data)
 	data = string.gsub(data, '[^'.._b..'=]', '')
